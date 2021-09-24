@@ -1,4 +1,4 @@
-package oop;
+package Oops;
 
 public class ArrayCreation {
 
@@ -17,7 +17,7 @@ public class ArrayCreation {
     }
 
     public static void main(String[] args) {
-        oop.ArrayCreation obj = new oop.ArrayCreation();
+        Oops.ArrayCreation obj = new Oops.ArrayCreation();
         obj.show();
     }
 }

@@ -1,4 +1,4 @@
-package oop;
+package Oops;
 
 import java.util.Scanner;
 // We can also use " java.util.* " for any function of util library

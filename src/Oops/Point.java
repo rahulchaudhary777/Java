@@ -1,4 +1,4 @@
-package oop;
+package Oops;
 
 public class Point {
     int x;
