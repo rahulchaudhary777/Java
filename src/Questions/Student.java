@@ -8,21 +8,24 @@ package questions;
 import java.util.Scanner;
 
 public class Student {
-    String s1;
     Student(String name){
-        if(name.length() >= 1){
-            s1 = name;
-        }
-        else{
-            s1 = "Unknown";
-        }
+       System.out.println("Student name :- "+name);
+    }
+    Student(){
+        System.out.println("Student Name :- Unknown");
     }
 }
 class StudentMain{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Student obj = new Student(sc.next());
-        System.out.println(obj.s1);
+       System.out.print("Do you Want to enter A Name (1.for_yes & 0.for_no) :- ");
+        int x = sc.nextInt();
+
+        if(x == 0){
+            Student obj1 = new Student();}
+        if(x == 1){
+            System.out.print("Please Enter a Name :- ");
+            Student obj = new Student(sc.nextLine());}
     }
 }
